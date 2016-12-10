@@ -1,0 +1,192 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.homedes
+    .collage
+      .mockup:nth-child(1)
+        top: 0
+        left: 0
+      .mockup:nth-child(2)
+        top: 100px
+        right: -12%
+      .mockup:nth-child(3)
+        top: 260px
+        right: 25%
+	.reviews
+		.owl-carousel
+			.owl-dots
+				bottom: -20%
+				left: 45%
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.author
+		p
+			font-size: 15px
+		.bernard
+			text-align: center
+
+	.homedes
+		padding-bottom: 550px
+		h2
+			text-align: center
+		p
+			font-size: 15px
+		.collage
+			margin-top: 50px
+			.mockup:nth-child(1)
+				top: 30px
+				left: 10%
+			.mockup:nth-child(2)
+				right: 4%
+
+	.slider-wrap
+    .owl-carousel
+      .owl-dots
+        position: absolute
+        top: 55%
+        left: 30px
+        transform: translateY(-50%)
+        .owl-dot
+          width: 12px
+          height: 12px
+          background: #fff
+          display: block
+          margin: 10px 0
+          border-radius: 50%
+      .item
+        .item-content
+          h1
+            font-size: 28px
+          h2
+            font-size: 25px
+	.reviews
+		.owl-carousel
+			.owl-dots
+				bottom: -20%
+				left: 40%
+			.item
+				.comment
+					p
+						padding: 10px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	#mainnav
+  #menu
+    display: block
+  ul
+    display: none
+    background: #fff
+    padding: 1em
+    text-align: left
+    li
+      display: block
+      a
+        display: block
+        padding: .75em 1.5em .5em 1.5em
+	.slider-wrap
+    .owl-carousel
+      .item
+        .item-content
+          h1
+            font-size: 20px
+          h2
+            font-size: 18px
+          .fobform
+            .phone
+              margin-bottom: 10px
+	.reviews
+		.owl-carousel
+			.owl-dots
+				bottom: -20%
+				left: 40%
+			.item
+				.comment
+					.avatar
+						margin-top: 20px
+					p
+						font-size: 15px
+						padding: 0
+	.advan
+		h2
+			font-size: 25px
+			padding: 0 5px
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.slider-wrap
+    .owl-carousel
+      .owl-dots
+        display: none
+      .item
+        .item-content
+          h1
+            font-size: 25px
+          h2
+            font-size: 23px
+	.reviews
+		.owl-carousel
+			.owl-dots
+				bottom: -20%
+				left: 35%
+			.item
+				.comment
+					.avatar
+					p
+						margin-top: 0
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.slider-wrap
+    .owl-carousel
+      .item
+        .item-content
+          h1
+            font-size: 20px
+          h2
+            font-size: 18px
+          .fobform
+            .phone
+              margin-bottom: 10px
+	.reviews
+		.owl-carousel
+			.owl-dots
+				bottom: -20%
+				left: 30%
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/

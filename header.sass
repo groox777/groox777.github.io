@@ -1,0 +1,169 @@
+@import "bourbon"
+@import "sass/vars"
+@import "sass/base"
+@import "app/libs/owl.carousel/dist/assets/owl.carousel.min"
+
+
+h1, h2, h3, h4, h5, h6
+  font-family: "TimesNewRomanBold", sans-serif
+  font-weight: normal
+
+/* #CLEARFIX
+ *==================================================
+
+.group:after
+  content: ""
+  display: table
+  clear: both
+
+/* #HEADER
+ *==================================================
+
+header
+  background: $main
+  text-align: center
+  padding: 0
+  position: fixed
+  z-index: 2
+  width: 100%
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+  #number a
+    font-family: "OpenSansBold", sans-serif
+    font-size: 25px
+    color: #fff
+    text-decoration: none
+    text-transform: uppercase
+    letter-spacing: .05em
+    padding: 5px 0
+    display: inline-block
+    &:hover
+      color: darken(#fff, 4%)
+    .fa
+      font-size: 22px
+      padding-right: 5px
+
+/* #NAVIGATION
+ *==================================================
+
+#mainnav
+  background: #fff
+  color: $main
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: .05em
+  #menu
+    display: none
+    padding: .8em 1.5em
+    cursor: pointer
+  ul,li
+    margin: 0
+    padding: 0
+  ul
+    display: block
+    margin: 0
+    text-align: center
+    li
+      margin: 0
+      list-style: none
+      display: inline-block
+      a
+        font-family: "OpenSansBold"
+        color: $main
+        text-decoration: none
+        display: inline-block
+        padding: .9em 1.5em .8em 1.5em
+        &:hover
+          color: #fff
+          background: darken($main, 5%)
+
+///Slider
+.slider-wrap
+  .owl-carousel
+    .owl-dots
+      position: absolute
+      top: 50%
+      left: 30px
+      transform: translateY(-50%)
+      .owl-dot
+        width: 15px
+        height: 15px
+        background: #fff
+        display: block
+        margin: 10px 0
+        border-radius: 50%
+        &.active
+          background: $main
+          transform: scale(1.5)
+    .item
+      height: 850px
+      color: #fff
+      text-align: center
+      .item-bg
+        background:
+          image: url(../img/slide1.jpg)
+          position: center
+          repeat: no-repeat
+          size: cover
+        max-width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+      .item-bg2
+        background:
+          image: url(../img/slide2.jpg)
+          position: center
+          repeat: no-repeat
+          size: cover
+        max-width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+      .item-bg3
+        background:
+          image: url(../img/slide3.jpg)
+          position: center
+          repeat: no-repeat
+          size: cover
+        max-width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+
+      .item-content
+        text-align: center
+        h1
+          font-family: "OpenSansBold", sans-serif
+          font-size: 30px
+          margin-top: 230px
+        h2
+          font-family: "OpenSansBold", sans-serif
+          font-size: 27px
+
+            padding: 5px
+
+        .fobform
+          margin-top: 50px
+          .phone
+            font-size: 20px
+            border: 3px solid $main
+            background-color: rgba(0,0,0,0.4)
+            outline: none
+            padding: 5px 0 5px 25px
+            width: 205px
+
+          .submit
+            font-size: 18px
+            border: 3px solid $main
+            background-color: $main
+            outline: none
+            padding: 7px 15px
+            width: auto
